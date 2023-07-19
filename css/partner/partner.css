@@ -1,0 +1,42 @@
+.owl-carousel .owl-item img {
+  display: block;
+  width: 40%!important;
+  margin: auto!important;
+}
+
+.noman-main-partner-section {
+    width: 100%;
+    background-color: #F3F7FD
+  }
+  
+  .partner-heading {
+    text-align: center;
+    width: 100%;
+    padding: 40px;
+  }
+  
+  .part-main-heading {
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(0, 2, 114);
+  }
+  
+  .noman-inner-partner-section {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 150px;
+    padding: 40px;
+  }
+  
+  .all-partner-section {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .partner-logo {
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }/*# sourceMappingURL=partner.css.map */

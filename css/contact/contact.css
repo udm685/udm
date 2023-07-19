@@ -1,0 +1,178 @@
+
+.shadhinresponsive-br {
+  display: none;
+}
+
+
+.contact-container{
+  background: linear-gradient(rgb(243,247,253,.8), rgb(243,247,253)), url("../../img/map.png");
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  clip-path: polygon(88% 9%, 100% 0%, 100% 100%, 0 99%, 0 0);
+}
+
+/* container css */
+
+.contact-heading {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+.shadhin-contact-content-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 90%;
+  margin: auto;
+}
+
+/* ///////location//////// */
+.shadhin-contact-location {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+/*// Meet us/ direct contact //*/
+.shadhin-direct-contact {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  color: rgb(27, 26, 26);
+  height: 100%;
+}
+
+.shadhin-direct-contact-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
+  border: 2px dashed #F70CDA;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 20px;
+}
+
+.shadhin-direct-contact-content h2 {
+  color: #4a4949;
+  font-weight: 800;
+}
+
+.shadhin-contact-item {
+  display: flex;
+  gap: 10px;
+  font-size: 16px;
+  color: rgb(74, 74, 74);
+}
+
+.shadhin-icon span {
+  padding: 20px;
+  color: white;
+  background: linear-gradient(207deg, rgb(190, 3, 247) 23%, rgb(0, 0, 0) 100%);
+  border-radius: 10px 5px 10px;
+}
+.shadhin-contact-item .contact-info{
+  margin-top: 15px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #202020;
+}
+
+/* ///////contact form/////// */
+.shadhin-contact-form {
+  margin-left: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.shadhin-direct-contact-content h2 {
+  margin-bottom: 50px;
+  color: #202020;
+  font-weight: 800;
+  font-size: 35px;
+}
+
+.shadhin-contact-form form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 15px;
+}
+
+.shadhin-input-flex {
+  display: flex;
+  gap: 20px;
+  margin-top: -5px;
+  margin-bottom: -5px;
+}
+
+.shadhin-contact-form input , textarea {
+  background-color: white;
+  border: 2px dashed #b10ef5;
+  border-radius: none!important;
+  width: 100%;
+  padding: 10px 20px 10px 30px;
+  border-radius: 20px 5px 5px 5px;
+}
+textarea {
+  resize: vertical;
+  padding: 20px!important;
+}
+.shadhin-contact-form .hero-btnOne {
+  background: linear-gradient(207deg, rgb(190, 3, 247) 23%, rgb(0, 0, 0) 100%);
+  color: white;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.shadhin-contact-form ::placeholder {
+  color: rgb(68, 67, 67);
+}
+
+.shadhin-contact-form label {
+  color: #202020;
+}
+
+.shadhin-contact-form form input:focus {
+  border: 2px solid red!important;
+  
+}
+
+
+/* /////// mobile responsive///////// */
+@media (max-width: 991px) {
+  * {
+    flex-wrap: wrap;
+    box-sizing: border-box;
+  }
+  .shadhin-contact-content-container {
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  /* ///////location//////// */
+  .shadhin-contact-location {
+    justify-content: center;
+  }
+  .shadhin-container {
+    padding: 5px;
+  }
+  input {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .shadhinresponsive-br {
+    display: block;
+  }
+}/*# sourceMappingURL=contact-section.css.map */

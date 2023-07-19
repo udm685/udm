@@ -1,0 +1,203 @@
+
+  .noman-main-about-section {
+    width: 90%;
+    color: black!important;
+    margin: auto;
+  }
+  
+  .noman-inner-about-section {
+    display: flex;
+    width: 100%;
+  }
+  
+  /* image section-------------- */
+  .noman-about-images {
+    display: flex;
+    width: 50%;
+    padding-top: 40px;
+    padding-right: 60px;
+    padding-bottom: 40px;
+  }
+  
+  .noman-about-img {
+    width: 265px;
+    height: auto;
+    border-radius: 15px;
+  }
+  
+  .noman-clint-one-two {
+    width: 50%;
+  }
+  
+  .noman-clint-one {
+    width: 100%;
+  }
+  
+  .noman-clint-two {
+    width: 100%;
+  }
+  
+  .noman-clint-two-three {
+    width: 50%;
+  }
+  
+  .noman-clint-three {
+    width: 100%;
+  }
+  
+  .noman-clint-four {
+    width: 100%;
+  }
+  
+  .blank-1 {
+    height: 50px;
+    width: 100%;
+    background-color: none;
+  }
+  
+  .noman-clint-one {
+    padding: 20px;
+  }
+  
+  .noman-clint-two {
+    padding: 20px;
+  }
+  
+  .noman-clint-three {
+    padding: 20px;
+  }
+  
+  .noman-clint-four {
+    padding: 20px;
+  }
+  
+  .blank-1 {
+    padding: 20px;
+  }
+  
+  /* image section-------------- */
+  /* about section-------------- */
+  .noman-about-info {
+    color: black;
+    border-left: 3px solid #b10ef5;
+    background: #f9f9f3;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    height: 70%;
+    padding: 50px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border-top-left-radius: 40px;
+    width: 60%;
+}
+  
+  .noman-about-me {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  
+  .about-heading {
+    font-size: 40px;
+    font-weight: 300;
+  }
+  
+  .abo {
+    font-weight: 800;
+  }
+  
+  .noman-about-profession {
+    width: 100%;
+    margin-bottom: 40px;
+    margin-left: -100px;
+}
+  
+.profession {
+  font-size: 30px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: white;
+  background: linear-gradient(207deg, rgb(190, 3, 247) 23%, rgb(0, 0, 0) 100%);
+  padding: 45px;
+  border-radius: 10px 5px 20px;
+  line-height: 40px;
+}
+  
+  .noman-about-profession-details {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  
+  .profession-details {
+    font-weight: 400 !important;
+    line-height: 30px;
+    font-size: 22px;
+    color: #282727;
+}
+  
+  .noman-about-project-clint {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  
+  .project {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .count-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .clint {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .count-main-heading {
+    font-size: 15px;
+    font-weight: 200;
+  }
+  
+  .five-k {
+    font-size: 40px;
+  }
+  
+  .noman-about-social-media {
+    width: 96%;
+    margin: auto;
+    position: absolute;
+    bottom: 30px;
+  }
+  
+  .follow {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+  .noman-about-project-clint {
+    display: flex;
+  }
+  
+  .social-links {
+    font-size: 20px;
+    margin-left: 15px;
+    color: white;
+    background: linear-gradient(207deg, rgb(190, 3, 247) 23%, rgb(0, 0, 0) 100%);
+  border-radius: 10px 5px 10px;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.social-links:hover{
+  background-color: white;
+  color: black;
+}
+  
+  /* about section-------------- *//*# sourceMappingURL=about.css.map */

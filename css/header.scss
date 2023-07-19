@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+// Core Part
+:root {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    position: relative;
+}
+
+// color Define
+$main-color: #f4faf7;
+
+//header style
+header {
+   position: sticky;
+   z-index: 234575623745;
+   top: 0;
+    .bg-base-100 {
+        background-color: $main-color;
+        color: black;
+    }
+    .drawer-end .drawer-toggle ~ .drawer-content {
+        grid-column-start: none;
+    }
+    
+}

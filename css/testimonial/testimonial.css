@@ -1,0 +1,114 @@
+/* Lalin---Testimonial section start here */
+/* ..................................... */
+.testimonial-container{
+    margin-bottom: 80px;
+}
+.lalin-testimonial-tittle {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+  
+  .lalin-testimonial-tittle h4 {
+    text-transform: uppercase;
+    color: #000000;
+  }
+  
+  .lalin-testimonial-tittle h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #000000;
+  }
+  
+  .lalin-testimonial-parrent {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: auto;
+  }
+  
+  .lalin-testimonial-child {
+    padding: 30px;
+  }
+  
+  .lalin-testimonial-review img {
+    width: 50px;
+    background: linear-gradient(207deg, rgb(190, 3, 247) 23%, rgb(0, 0, 0) 100%);
+    padding: 10px;
+    margin-bottom: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 20px;
+}
+  
+  .lalin-testimonial-review {
+    padding: 30px;
+    border: 2px dashed #F70CDA;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 20px;
+}
+  
+  
+.lalin-testimonial-review p {
+    font-size: 18px;
+    color: #28273F;
+}
+  
+  .lalin-testimonial-client-profile-img img {
+    width: 120px;
+    height: 120px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 20px;
+  }
+  
+  .lalin-testimonial-client-profile-img {
+    border: 2px solid #F70CDA;
+    align-self: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 20px;
+}
+  
+  .lalin-testimonial-client-profile {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .lalin-testimonial-client-profile-name {
+    margin-top: 15px;
+    line-height: 30px;
+    color: #28273F;
+}
+  
+  /* For Mobile Devices */
+  /* >>>>>>>>>>>>>>>>> */
+  @media (max-width: 768px) {
+    .lalin-testimonial-parrent {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    .lalin-testimonial-client-profile-name {
+      margin-top: 15px;
+      line-height: 3px;
+      align-self: center;
+    }
+    .lalin-testimonial-client-profile-name h3 {
+      font-size: 15px;
+    }
+    .lalin-testimonial-client-profile-name h5 {
+      font-size: 12px;
+    }
+
+    /* Mobile Device end>>>>>>>>>>> */
+  }/*# sourceMappingURL=testimonial.css.map */

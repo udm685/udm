@@ -1,0 +1,303 @@
+
+/* Animation Style */
+
+.element {
+  display: inline-block;
+  animation: roll 5s infinite;
+  transform: rotate(30deg);
+  opacity: .7;
+}
+
+@keyframes roll {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* Lalin-services section start-here */
+.services-container{
+  padding-top: 50px;
+    padding-bottom: 150px;
+    background: #F3F7FD;
+    clip-path: polygon(100% 0, 100% 66%, 97% 100%, 0 88%, 0 0);
+}
+.lalin-services-parrent-container h3{
+  font-size: 30px;
+  color: #282727!important;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.lalin-services-container-content p{
+  color: #161616!important;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.number span{
+  font-size: 70px;
+  font-weight: 600;
+  background-image: linear-gradient(to left, #16eabf, #ea0dc5);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  opacity: .5;
+  position: absolute;
+  top: 0;
+  right: 20px;
+}
+.lalin-services-parrent-container {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 80px;
+    margin-top: 80px;
+  }
+  
+  .lain-services-container-img {
+    border-radius: 100px;
+    padding: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgb(255 253 253 / 6%) 0px 0px 0px 1px;
+}
+  .lain-services-container-img img {
+    width: 150px;
+  }
+  
+  .lalin-services-container-one {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    background: white;
+    gap: 15px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 12px 12px 2px 1px rgba(253, 182, 2, 0.4);
+    position: relative;
+    transition: 2s;
+  }
+
+  .lalin-services-container-one:hover{
+    cursor: pointer;
+    transition: 2s;
+    box-shadow: none;
+  }
+  
+  
+  .lalin-services-container-two {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    background: white;
+    gap: 15px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 12px 12px 2px 1px rgba(73, 253, 2, 0.4);
+    position: relative;
+    transition: 2s;
+  }
+  .lalin-services-container-two:hover{
+    cursor: pointer;
+    transition: 2s;
+    box-shadow: none;
+  }
+  
+  .lalin-services-container-three {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    background: white;
+    gap: 15px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 12px 12px 2px 1px rgba(81, 2, 253, 0.4);
+    position: relative;
+    transition: 2s;
+  }
+
+  .lalin-services-container-three:hover{
+    cursor: pointer;
+    transition: 2s;
+    box-shadow: none;
+  }
+  
+
+  
+  .lalin-services-container-four {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    background: white;
+    gap: 15px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 12px 12px 2px 1px rgba(253, 2, 207, 0.4);
+    position: relative;
+    transition: 2s;
+  }
+
+  .lalin-services-container-four:hover{
+    cursor: pointer;
+    transition: 2s;
+    box-shadow: none;
+  }
+
+  .lalin-services-container-content {
+    padding: 20px;
+    padding-bottom: 35px;
+  }
+  
+  .lalin-services-container-content p {
+    padding-bottom: 15px;
+  }
+  
+  .lalin-services-container-content a {
+    text-decoration: none;
+    background: linear-gradient(207deg, rgb(190, 3, 247) 23%, rgb(0, 0, 0) 100%);
+    color: white;
+    padding: 10px 25px;
+    border-radius: 8px;
+    border-radius: 5px;
+  }
+  
+  /* For Mobile Device*/
+  /* >>>>>>>>>>>>>>> */
+  @media (max-width: 768px) {
+    .lalin-services-parrent-container {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      margin-bottom: 20px;
+      margin-top: 20px;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    .lalin-services-container-one {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex-wrap: nowrap;
+      background: #F7FAFF;
+      gap: 15px;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    }
+    .lalin-services-container-two {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex-wrap: nowrap;
+      background: #F7FAFF;
+      gap: 15px;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+      /*        background-image: url(/img/seo-bg.png);
+      background-repeat: no-repeat; */
+    }
+    .lalin-services-container-two:hover {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex-wrap: nowrap;
+      gap: 15px;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+      background-image: url(/img/seo-bg.png);
+      background-repeat: no-repeat;
+      background: #4480e8;
+      transition: 0.9s;
+    }
+    .lalin-services-container-three {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex-wrap: nowrap;
+      background: #F7FAFF;
+      gap: 15px;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+      /*         background-image: url(/img/seo-bg.png);
+      background-repeat: no-repeat; */
+    }
+    .lalin-services-container-three:hover {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex-wrap: nowrap;
+      gap: 15px;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+      background-image: url(/img/seo-bg.png);
+      background-repeat: no-repeat;
+      background: #4480e8;
+      transition: 0.9s;
+    }
+    .lalin-services-container-four {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex-wrap: nowrap;
+      background: #F7FAFF;
+      gap: 15px;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+      /*         background-image: url(/img/marketing-bg.png);
+      background-repeat: no-repeat; */
+    }
+    .lalin-services-container-four:hover {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex-wrap: nowrap;
+      gap: 15px;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+      background-image: url(/img/marketing-bg.png);
+      background-repeat: no-repeat;
+      background: #7030c9;
+      transition: 0.9s;
+    }
+    .lain-services-container-img {
+      border: 1px solid #F7FAFF;
+      border-radius: 100px;
+      padding: 20px;
+      margin-top: 25px;
+      margin-left: 15px;
+      margin-right: 15px;
+      background-color: #ffffff;
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    }
+  }
+  /* For Tablet/Pad */
+  /* >>>>>>>>>>>>>> */
+  /* @media (max-width: 991px){
+  
+      .lalin-services-parrent-container {
+          display: flex;
+          gap: 20px;
+          margin-bottom: 20px;
+          margin-top: 20px;
+          flex-direction: row;
+          margin-left: 20px;
+          margin-right: 20px;
+      }
+  
+  } *//*# sourceMappingURL=services.css.map */

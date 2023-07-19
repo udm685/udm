@@ -1,0 +1,240 @@
+@media only screen and (max-width: 768px) and (min-width: 0px) {
+
+  /* Hero Section */
+  .main-logo {
+    display: none;
+  }
+
+  .navbar svg {
+    color: white;
+  }
+
+  .hero-intro h1 {
+    color: #013224;
+    font-size: 0px;
+    margin-left: 0px;
+    background: #fff;
+    padding: 15px;
+    margin-top: 40px;
+    text-transform: capitalize;
+    font-weight: 600;
+    text-align: center;
+    border-left: 4px solid #f70cda;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .hero-intro button:first-child {
+    margin-left: 0px;
+  }
+
+  /* about */
+  .noman-about-images {
+    display: flex;
+    width: 100%;
+    padding-top: 40px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+  }
+
+
+  .info {
+
+    margin-top: -250px;
+  }
+
+  .info h3 {
+    margin-left: 0px;
+    font-size: 20px;
+  }
+
+  .info img {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .hero-intro {
+    width: 90% !important;
+  }
+
+  .ah-headline span {
+    font-size: 30px;
+  }
+
+  .button-data {
+    display: block;
+
+  }
+
+  .button-data button {
+    font-size: 15px;
+  }
+
+  /* about section--------------- */
+
+  .profession {
+    font-size: 20px;
+
+  }
+
+  .noman-about-profession {
+    width: auto;
+    margin-bottom: 40px;
+    margin-left: -60px;
+  }
+
+  .profession-details {
+
+    font-size: 15px;
+    width: auto;
+
+  }
+
+  .stats {
+    width: auto;
+  }
+
+  .services-container {
+    clip-path: polygon(100% 0, 100% 66%, 97% 100%, 0 98%, 0 0);
+  }
+
+  .lalin-testimonial-client-profile-name {
+
+    line-height: 20px;
+
+  }
+
+  .shadhin-icon span {
+    padding: 5px;
+  }
+
+  .shadhin-contact-item .contact-info {
+    margin-top: 2px;
+  }
+
+  .shadhin-contact-form form {
+    margin-top: 50px;
+  }
+
+  .shadhin-work-sample-content h3 {
+
+    font-size: 20px;
+  }
+
+  .shadhin-work-sample-content p {
+
+    font-size: 18px;
+  }
+
+  .shadhin-sample-section {
+    padding: 50px 0px;
+    margin-bottom: 0px;
+  }
+
+  .lalin-testimonial-child {
+    padding: 0px;
+  }
+
+  .shadhin-contact-content-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .shadhin-direct-contact {
+    width: 90%;
+  }
+
+  .shadhin-direct-contact {
+    width: 100%;
+    margin-left: -17px;
+  }
+
+  .space-y-8 {
+    margin-left: -17px;
+  }
+
+  .link-content {
+    margin-left: 100px;
+  }
+
+
+  .noman-about-info {
+    padding: 20px;
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .services-container {
+    padding-top: 30px;
+  }
+
+  .testimonial-container {
+    margin-top: -30px;
+  }
+
+  .shadhin-container {
+    margin-top: -60px;
+  }
+
+  .noman-about-me {
+    margin-bottom: 20px;
+  }
+
+  .about-heading {
+    margin-top: 3rem;
+  }
+
+}
+
+/* For Tab */
+
+@media only screen and (max-width: 991px) and (min-width: 770px) {
+  .info img {
+    margin-bottom: 30px;
+  }
+
+  .noman-about-images {
+    width: 98%;
+    margin: auto;
+  }
+
+  .noman-about-images {
+    padding-right: 0px;
+  }
+
+  .noman-about-info {
+    width: 100%;
+  }
+
+  .services-container {
+    padding-top: 50px;
+    padding-bottom: 150px;
+    background: #F3F7FD;
+    clip-path: polygon(100% 0, 100% 66%, 97% 100%, 0 90%, 0 0);
+  }
+
+  .shadhin-contact-content-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 90%;
+    margin: auto;
+  }
+
+  .shadhin-direct-contact {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    color: rgb(27, 26, 26);
+    height: 100%;
+  }
+
+  .shadhin-contact-form form {
+    margin-top: 50px;
+  }
+
+  .stats {
+    width: 100%;
+  }
+
+}
